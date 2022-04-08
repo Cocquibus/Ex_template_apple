@@ -1,0 +1,109 @@
+@media (min-width:320px) and (max-width:500px){
+    .bottomclass_grille{
+        grid-template-columns: 1fr !important;
+    }
+    .footer_price,.footer_ligne,.footer_grille,.footer_infobot_centrage,.footer_copybot_centrage{
+        width: 90%;
+    }
+    .bandeau{
+        padding: 20px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bandeau_text{
+        width: 210px;
+        margin: 0px;
+    }
+    .iphone13{
+        background-image: url("../img/hero_iphone13pro_avail__iy77cld0zwii_small.jpg");
+        padding-top: 60px;
+    }
+    .iphone13_title{
+        font-size: 1.3rem;
+    }
+    .iphone13_stitle{
+        font-size: 0.8rem;
+    }
+    .iphoneSE_new,.iphoneSE_stitle{
+        color: rgb(173, 163, 151);
+    }
+    .text_link_blue{
+        font-size: 0.8rem;
+        margin: 5px 15px !important;
+    }
+    .text_link_blue::after{
+        margin: 0px !important;
+    }
+    .iphoneSE_stitle{
+        font-size: 0.5rem;
+    }
+    .iphonewatch_stitle{
+        font-size: 0.5rem;
+    }
+    .bottomclass{
+        display: none;
+    }
+    .footer_grille{
+        grid-template-columns: 1fr;
+    }
+    .footer_grille_sliste{
+        display: none;
+    }
+    input:checked + ul>.footer_grille_sliste{
+        display: block;
+    }
+    .footer_grille_liste{
+        flex-direction: column;
+    }
+    .footer_label{
+        display: block;
+    }
+}
+@media (min-width:500px) and (max-width:768px){
+    .bottomclass_grille{
+        grid-template-columns: 1fr !important;
+    }
+    .footer_price,.footer_ligne,.footer_grille,.footer_infobot_centrage,.footer_copybot_centrage{
+        width: 90%;
+    }
+    .bandeau{
+        padding: 20px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bandeau_text{
+        width: 210px;
+        margin: 0px;
+    }
+    .iphone13{
+        background-image: url("../img/hero_iphone13pro_avail__iy77cld0zwii_small.jpg");
+        padding-top: 60px;
+    }
+    .iphone13_title{
+        font-size: 1.3rem;
+    }
+    .iphone13_stitle{
+        font-size: 0.8rem;
+    }
+    .iphoneSE_new,.iphoneSE_stitle{
+        color: rgb(173, 163, 151);
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+}
+@media (max-width:1150px){
+    .menutop_liste{
+        display: none; /*!!!!!!!!!!!!à traiter !!!!!!!!!!!!!!!!*/
+    }
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .menutop_sac{
+        display: flex;
+        justify-content: end;
+        margin-right: 30px;
+    }
+}

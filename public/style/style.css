@@ -1,0 +1,298 @@
+body,ul,h1,h2,h3,p,label,input{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+/*menu top*/
+.menutop{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #141414;
+}
+.menutop_liste{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+}
+.menutop_liste_individuel{
+    font-size: 0.8rem;
+    margin: 0px 20px;
+}
+/*pub unicef*/
+.bandeau{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #ede9e5;
+    align-items: center;
+    padding: 15px 0px;
+}
+.bandeau_text{
+    color: #0066CC;
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+/*section iphone 13*/
+.iphone13{
+    background-image: url("../img/hero_iphone13pro_avail__iy77cld0zwii_largetall.jpg");
+    height: 680px;
+    background-blend-mode:darken;
+    background-color: rgb(243, 243, 243);
+    background-position-y: 680px;
+    background-position-x: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.iphone13_title{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+.iphone13_stitle{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.text_link{
+    display: flex;
+    justify-content: center;    
+}
+.text_link_blue{
+    color: #0066CC;
+    margin:0px 30px;
+    font-size: 1.3rem;
+}
+.text_link_blue::after{
+    margin-left: 10px;
+    content: ">";
+    position: absolute;
+}
+/*section iphone SE*/
+.iphoneSE{
+    background-color: rgb(243, 243, 243);
+    background-image: url("../img/hero_iphonese_avail__eg8srhcnpo66_large.jpg");
+    height: 680px;
+    background-blend-mode:darken;
+    background-position-y: 680px;
+    background-position-x: center;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.iphoneSE_new{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.iphoneSE_img{
+    display: flex;
+    justify-content: center;
+}
+.iphoneSE_stitle{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+/*iphone watch*/
+.iphonewatch{
+    background-color: rgb(243, 243, 243);
+    background-image: url("../img/hero_watch_lte__b8er858e34gi_large.jpg");
+    height: 600px;
+    background-blend-mode:darken;
+    background-position-y: 600px;
+    background-position-x: center;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.iphonewatch_img{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.iphonewatch_stitle{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+/*grille bottom*/
+.bottomclass{
+    display: flex;
+    justify-content: center;
+}
+.bottomclass_grille{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+    gap: 10px;
+    width: 98%;
+    margin-bottom: 10px;;
+}
+.bottomclass_grille_wwd{
+    background-image: url("../img/promo_wwdc_announce__dr6w8rxice4i_large.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_grille_ipadair{
+    background-image: url("../img/promo_ipadair_avail__ferd4bfpcdm6_large.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_grille_display{
+    background-image: url("../img/promo_studiodisplay_avail__d1cx9j73ooq6_large.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_grille_studio{
+    background-image: url("../img/promo_macstudio_avail__byhwkp0o4gty_large.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_grille_essentials{
+    background-image: url("../img/promo_business__ctja2nwzpey6_large.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_grille_stream{
+    background-image: url("../img/promo_slow_horses__gllp21lbf4mm_large.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 600px;
+    width: 100%;
+}
+.bottomclass_wwd_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.bottomclass_ipadair_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+}
+.bottomclass_essentials_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+}
+.bottomclass_stream_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    color: white;
+    height: 100%;
+}
+/*footer*/
+footer{
+    background-color: #F5F5F7;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.footer_list_btn{
+    color: black;
+}
+label{  /*À MODIFIER !!!!!!!!!!!!!!!!*/
+    display: inline-block;
+}
+.footer_price{
+    color: gray;
+    padding: 20px 0px;
+    width: 50%;
+    font-size: 0.8rem;
+}
+.footer_ligne{
+    margin: auto;
+    width: 50%;
+    opacity: 0.3;
+}
+.footer_centrage{
+    display: flex;
+    justify-content: center;
+}
+.footer_grille{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.footer_grille_liste{
+    display: flex;
+    color: gray;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+.footer_grille_sliste{
+    margin: 10px 0px;
+}
+.footer_grille_sliste_title{
+    color: black;
+}
+.footer_blue-text{
+    color: #0066CC;
+}
+.footer_infobot{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding: 10px;
+}
+.footer_infobot_centrage{
+    width: 50%;
+}
+.footer_copybot{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding: 10px;
+}
+.footer_copybot_centrage{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer_label{
+    display: none;
+    margin: 10px 0px;
+    color: black;
+}
+.footer_label::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(230, 230, 230);
+}
