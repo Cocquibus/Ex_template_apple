@@ -12,6 +12,32 @@ body{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
 }
 /*menu top*/
+.logo{
+    order: 2;
+}
+.menutop_sac{
+    order: 4;
+}
+.menutop_separation{
+    width: 80%;
+    display: none;
+}
+.barburger{
+    order: 1;
+    display: none;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 30px;
+    margin-top: 7px;
+}
+.barburger_top,.barburger_bot{
+    width: 25px;
+    height: 1px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
 .menutop{
     display: flex;
     justify-content: center;
@@ -19,6 +45,7 @@ body{
     background-color: #141414;
 }
 .menutop_liste{
+    order: 3;
     display: flex;
     list-style: none;
     height: 50px;
